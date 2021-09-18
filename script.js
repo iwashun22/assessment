@@ -49,7 +49,7 @@ assessmentButton.onclick = () => {
   // widgets.js の設定
   const script = document.createElement('script');
   script.setAttribute('src', 'https://platform.twitter.com/widgets.js');
-  tweetDivided.appendChild(script);
+  tweetDivided.appendChild(script)
 };
 
 const answers = [
